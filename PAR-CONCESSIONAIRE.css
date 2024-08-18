@@ -1,0 +1,266 @@
+body
+{
+   background-color: #808080;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+.wb-theme-header
+{
+   background-color: #CC0000;
+   background-image: none;
+   border: 1px solid #E3A1A1;
+   border-radius: 0px;
+   color: #FFFFFF;
+   --background-color: rgba(204,0,0,1.00);
+   --border-color: #E3A1A1;
+   --border-width: 1px;
+   --color: #FFFFFF;
+}
+.wb-theme-content
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #EEEEEE;
+   border-radius: 0px;
+   color: #333333;
+   --background-color: rgba(255,255,255,1.00);
+   --border-color: #EEEEEE;
+   --border-width: 1px;
+   --color: #333333;
+   --icon-color: #CC0000;
+   --colorize: invert(14%) sepia(64%) saturate(4853%) hue-rotate(354deg) brightness(98%) contrast(116%);
+}
+.wb-theme-button, .wb-theme-static
+{
+   background-color: #EEEEEE;
+   background-image: none;
+   border: 1px solid #D8DCDF;
+   border-radius: 0px;
+   color: #004276;
+   --background-color: rgba(238,238,238,1.00);
+   --border-color: #D8DCDF;
+   --border-width: 1px;
+   --color: #004276;
+}
+.wb-theme-button:hover
+{
+   background-color: #F6F6F6;
+   background-image: none;
+   border: 1px solid #CDD5DA;
+   border-radius: 0px;
+   color: #111111;
+   --background-color: rgba(246,246,246,1.00);
+   --border-color: #CDD5DA;
+   --border-width: 1px;
+   --color: #111111;
+}
+.wb-theme-button.active, .wb-theme-button:active, .active > .wb-theme-button
+{
+   background-color: #FFFFFF;
+   background-image: none;
+   border: 1px solid #EEEEEE;
+   border-radius: 0px;
+   color: #CC0000;
+   --background-color: rgba(255,255,255,1.00);
+   --border-color: #EEEEEE;
+   --border-width: 1px;
+   --color: #CC0000;
+}
+.darktheme .wb-theme-header
+{
+   background-color: #CC0000;
+   background-image: none;
+   border: 1px solid #E3A1A1;
+   border-radius: 0px;
+   color: #FFFFFF;
+   --background-color: rgba(204,0,0,1.00);
+   --border-color: #E3A1A1;
+   --border-width: 1px;
+   --color: #FFFFFF;
+}
+.darktheme .wb-theme-content
+{
+   background-color: #212529;
+   background-image: none;
+   border: 1px solid #495057;
+   border-radius: 0px;
+   color: #DEE2E6;
+   --background-color: rgba(33,37,41,1.00);
+   --border-color: #495057;
+   --border-width: 1px;
+   --color: #DEE2E6;
+   --icon-color: #CC0000;
+   --colorize: invert(8%) sepia(95%) saturate(7198%) hue-rotate(7deg) brightness(95%) contrast(111%);
+}
+.darktheme .wb-theme-button, .darktheme .wb-theme-static
+{
+   background-color: #000000;
+   background-image: none;
+   border: 1px solid #495057;
+   border-radius: 0px;
+   color: #FFFFFF;
+   --background-color: rgba(0,0,0,1.00);
+   --border-color: #495057;
+   --border-width: 1px;
+   --color: #FFFFFF;
+}
+.darktheme .wb-theme-button:hover
+{
+   background-color: #212529;
+   background-image: none;
+   border: 1px solid #CDD5DA;
+   border-radius: 0px;
+   color: #FFFFFF;
+   --background-color: rgba(33,37,41,1.00);
+   --border-color: #CDD5DA;
+   --border-width: 1px;
+   --color: #FFFFFF;
+}
+.darktheme .wb-theme-button.active, .darktheme .wb-theme-button:active, .active > .wb-theme-button
+{
+   background-color: #212529;
+   background-image: none;
+   border: 1px solid #495057;
+   border-radius: 0px;
+   color: #FFFFFF;
+   --background-color: rgba(33,37,41,1.00);
+   --border-color: #495057;
+   --border-width: 1px;
+   --color: #FFFFFF;
+}
+#wb_Section1
+{
+   height: 208px;
+   margin: 0;
+   background-color: #000000;
+   background-image: none;
+   border: 1px solid #EEEEEE;
+   border-radius: 0px;
+   text-align: center;
+}
+#Section1-card-body
+{
+   font-size: 0;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   padding: 0;
+   animation: flip 3000ms linear 0ms 1 normal both;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Editbox1
+{
+   line-height: 64px;
+   margin: 0;
+   border: 1px solid #EEEEEE;
+   border-radius: 0px;
+   background-color: #000000;
+   background-image: none;
+   color: #333333;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   text-align: left;
+   padding: 4px 4px 4px 4px;
+}
+#Editbox1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #A9A9A9;
+   border-radius: 0px;
+   margin: 0;
+   padding: 0;
+   text-align: left;
+}
+#Heading1
+{
+   color: #000000;
+   font-family: Georgia;
+   font-weight: bold;
+   font-style: normal;
+   font-size: 43px;
+   margin: 0;
+   text-align: left;
+   text-transform: none;
+   text-shadow: 0px 0px 5px rgba(255,0,0,0.50);
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 30px;
+   width: 178px;
+   float: left;
+   margin: 0 4px 0 0;
+}
+#NavigationBar1 ul.navbar li a
+{
+   position: relative;
+   display: block;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   left: 0;
+   z-index: 1;
+   border-width: 0;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 30px;
+   width: 178px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
+}
